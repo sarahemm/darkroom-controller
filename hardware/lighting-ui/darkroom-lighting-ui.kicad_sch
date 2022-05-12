@@ -2466,7 +2466,6 @@
     )
   )
 
-
   (junction (at 293.37 126.365) (diameter 0) (color 0 0 0 0)
     (uuid 03982766-a37c-4b05-bb6b-0e0902fe1a7c)
   )
@@ -5072,7 +5071,7 @@
     (uuid 1acb12af-8901-4f32-8119-7215480386a0)
     (property "Reference" "U1" (id 0) (at 78.74 18.415 0))
     (property "Value" "K7805JT-500R3-LB" (id 1) (at 78.74 20.955 0))
-    (property "Footprint" "Converter_DCDC:Converter_DCDC_K7805JT-500R3-LB_SMD" (id 2) (at 80.01 32.385 0)
+    (property "Footprint" "Converter_DCDC_sen:Converter_DCDC_Mornsun_K7805JT_SMD" (id 2) (at 80.01 32.385 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
     (property "Datasheet" "https://www.mornsun-power.com/html/pdf/K7805JT-500R3-LB.html" (id 3) (at 78.74 26.035 0)
@@ -7051,7 +7050,7 @@
       (reference "TP11") (unit 1) (value "GND") (footprint "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm")
     )
     (path "/1acb12af-8901-4f32-8119-7215480386a0"
-      (reference "U1") (unit 1) (value "K7805JT-500R3-LB") (footprint "Converter_DCDC:Converter_DCDC_K7805JT-500R3-LB_SMD")
+      (reference "U1") (unit 1) (value "K7805JT-500R3-LB") (footprint "Converter_DCDC_sen:Converter_DCDC_Mornsun_K7805JT_SMD")
     )
     (path "/33b0de3b-c41b-4e4a-865c-fa50373d2952"
       (reference "U2") (unit 1) (value "MCP2551-I-SN") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
